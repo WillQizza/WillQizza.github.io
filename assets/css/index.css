@@ -1,0 +1,26 @@
+html, body {
+    height: 100%;
+}
+
+.columns {
+    background-color: #f5f5f5;
+}
+
+.columns > .column {
+    padding-bottom: 0;
+}
+
+.navbar {
+    margin: auto;
+    width: 33%;
+}
+
+#infoColumn {
+    padding-top: 1.5rem;
+    width: 65%;
+    flex: none;
+}
+
+#infoColumn > .box {
+    height: calc(100% - 1.25rem);
+}
