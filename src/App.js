@@ -1,10 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import NavigationBar from './components/NavigationBar';
+import AboutMe from './components/AboutMe';
+import Projects from './components/Projects';
+
 
 function App() {
   return (
     <>
-      
+      <NavigationBar />
+      <AboutMe />
+      <Projects />
     </>
   );
 }

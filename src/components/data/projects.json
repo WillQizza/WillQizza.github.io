@@ -1,0 +1,64 @@
+[{
+        "name": "PizzaServer",
+        "description": "Multi-protocol Minecraft Bedrock Edition server software built using Java.",
+        "image": "",
+        "repository": "https://github.com/PizzaServer/PizzaServer",
+        "skills": ["Java", "JUnit5", "Bedrock Protocol"]
+    },
+    {
+        "name": "ChatReport",
+        "description": "Java Minecraft report plugin with an internal moderation website built with Node.js.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/ChatReportPlugin",
+        "skills": ["Node.js", "HTML/CSS", "Java", "Redis", "SQL", "Express.js"]
+    },
+    {
+        "name": "Portfolio Site",
+        "description": "This website was my own creation.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/WillQizza.github.io",
+        "skills": ["React", "HTML/CSS"]
+    },
+    {
+        "name": "ChatterCow",
+        "description": "Chatroom application built using Express.js & Socket.IO.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/ChatterCow",
+        "skills": ["Node.js", "HTML/CSS", "Socket.IO", "Express.js"]
+    },
+    {
+        "name": "MessageCow",
+        "description": "Messageboard project to quickly post a message out there to the world using PHP & Laravel.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/MessageCow",
+        "skills": ["PHP", "JavaScript", "SQL", "Laravel"]
+    },
+    {
+        "name": "LeaderboardAPI",
+        "description": "Simple API built for easily creating leaderboards with datasources like Redis or SQL.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/LeaderboardAPI",
+        "skills": ["Java", "SQL", "Redis"]
+    },
+    {
+        "name": "Scrumptiousroll",
+        "description": "Food identifying chrome extension built for HackTheNorth 2021.",
+        "image": "",
+        "repository": "https://github.com/HannahGuo/Scrumptiousroll",
+        "skills": ["JavaScript"]
+    },
+    {
+        "name": "BoinkBlonkCraneBot",
+        "description": "TokyoCatch API & Discord bot to track how many plays occur for various crane games.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/BoinkBlonkCraneBot",
+        "skills": ["Node.js", "SQL", "discord.js"]
+    },
+    {
+        "name": "MMMConnect",
+        "description": "Facebook replica created as my Computing Science 30 final project.",
+        "image": "",
+        "repository": "https://github.com/WillQizza/MMMConnect",
+        "skills": ["PHP", "HTML/CSS", "JavaScript"]
+    }
+]
