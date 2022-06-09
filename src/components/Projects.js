@@ -1,6 +1,7 @@
 import { Component } from "react";
-import { Card, Columns, Container, Tag } from "react-bulma-components";
+import { Columns, Container } from "react-bulma-components";
 import projectsJSON from './data/projects.json';
+import Project from "./Project";
 
 export default class Projects extends Component {
 
@@ -10,8 +11,14 @@ export default class Projects extends Component {
         // Divide projects into separate cards
         this.projects = [[], [], [], []];
         for (let i = 0; i < projectsJSON.length; i++) {
+            const project = projectsJSON[i];
+
             const columnIndex = i % 3;
-            this.projects[columnIndex].push(this._makeCardFromProjectJSON(projectsJSON[i]));
+            this.projects[columnIndex].push(<Project title={project.title}
+                 description={project.description}
+                 image={project.image}
+                 repository={project.repository}
+                 skills={project.skills} />);
         }
     }
     
@@ -36,31 +43,6 @@ export default class Projects extends Component {
                 </Columns.Column>
             </Columns>
         </Container>;
-    }
-
-    _makeCardFromProjectJSON(project) {
-        const skills = project.skills.map(skill => <Tag size="medium" style={{
-            marginRight: '1em',
-            marginBottom: '1em'
-        }}>
-            {skill}
-        </Tag>); 
-        
-        return <a href={project.repository}><Card style={{
-            minHeight: '30em',
-            maxHeight: '30em',
-            marginTop: '1em'
-        }}>
-            <Card.Image src={project.image}></Card.Image>
-            <Card.Header>
-                <Card.Header.Title className="is-size-5">{project.name}</Card.Header.Title>
-            </Card.Header>
-            <Card.Content>
-                {project.description}
-                <br /><br />
-                {skills}
-            </Card.Content>
-        </Card></a>;
     }
 
 }
