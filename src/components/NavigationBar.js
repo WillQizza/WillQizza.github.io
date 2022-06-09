@@ -5,7 +5,11 @@ export default class NavigationBar extends Component {
 
     render() {
         return <Navbar style={{
-            justifyContent: 'center'
+            justifyContent: 'center',
+            width: '100%',
+            position: 'fixed',
+            minHeight: '3.25em',
+            maxHeight: '3.25em'
         }}>
             <Navbar.Brand>
                 <Navbar.Item>
