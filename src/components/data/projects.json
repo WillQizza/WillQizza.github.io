@@ -1,7 +1,7 @@
 [{
         "name": "PizzaServer",
-        "description": "Multi-protocol Minecraft Bedrock Edition server software built using Java.",
-        "image": "http://localhost:3000/static/imgs/pizzaserver.png",
+        "description": "Leading the development of multi-protocol Minecraft Bedrock Edition server software built using Java.",
+        "image": "./static/imgs/pizzaserver.png",
         "repository": "https://github.com/PizzaServer/PizzaServer",
         "skills": ["Java", "JUnit5", "Bedrock Protocol"]
     },
@@ -14,7 +14,7 @@
     },
     {
         "name": "MessageCow",
-        "description": "Messageboard project to quickly post a message out there to the world using PHP & Laravel.",
+        "description": "Messageboard project to quickly post a message out to the world using PHP & Laravel.",
         "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
         "repository": "https://github.com/WillQizza/MessageCow",
         "skills": ["PHP", "JavaScript", "SQL", "Laravel"]
@@ -25,13 +25,6 @@
         "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
         "repository": "https://github.com/WillQizza/ChatReportPlugin",
         "skills": ["Node.js", "HTML/CSS", "Java", "Redis", "SQL", "Express.js"]
-    },
-    {
-        "name": "Portfolio Site",
-        "description": "This website was my own creation.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
-        "repository": "https://github.com/WillQizza/WillQizza.github.io",
-        "skills": ["React", "HTML/CSS"]
     },
     {
         "name": "LeaderboardAPI",
@@ -48,9 +41,9 @@
         "skills": ["JavaScript"]
     },
     {
-        "name": "BoinkBlonkCraneBot",
-        "description": "TokyoCatch API & Discord bot to track how many plays occur for various crane games.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "name": "TokyoCatch API/Discord Bot",
+        "description": "TokyoCatch API & Discord chat bot to track and be notified for how many plays occur in various online crane machines.",
+        "image": "./static/imgs/cranebot.png",
         "repository": "https://github.com/WillQizza/BoinkBlonkCraneBot",
         "skills": ["Node.js", "SQL", "discord.js"]
     },
@@ -60,5 +53,12 @@
         "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
         "repository": "https://github.com/WillQizza/MMMConnect",
         "skills": ["PHP", "HTML/CSS", "JavaScript"]
+    },
+    {
+        "name": "Portfolio Site",
+        "description": "This website was built using React & Bulma.",
+        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "repository": "https://github.com/WillQizza/WillQizza.github.io",
+        "skills": ["React", "HTML/CSS"]
     }
 ]

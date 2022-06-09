@@ -1,5 +1,5 @@
 import { Component } from "react";
-import { Box, Button, Card, Columns, Container, Tag } from "react-bulma-components";
+import { Card, Columns, Container, Tag } from "react-bulma-components";
 import projectsJSON from './data/projects.json';
 
 export default class Projects extends Component {
@@ -16,11 +16,13 @@ export default class Projects extends Component {
     }
     
     render() {
-        return <Container>
-            <h1 className="title is-size-1 has-text-centered" style={{
+        return <Container style={{
+            paddingTop: '3.25em'    // account for nav
+        }}>
+            <h1 className="title is-size-1 has-text-centered is-unselectable" style={{
                 marginTop: '1em'
             }}>Projects</h1>
-            <h2 className="subtitle has-text-centered">Click any card to view the Github repository!</h2>
+            <h2 className="subtitle has-text-centered is-unselectable">Click any card to view the Github repository!</h2>
             <hr />
             <Columns>
                 <Columns.Column size="one-third">
