@@ -28,7 +28,7 @@ export default class Projects extends Component {
         }}>
             <h1 className="title is-size-2 has-text-centered is-unselectable" style={{
                 marginTop: '1em'
-            }}>Projects</h1>
+            }} id="projectsTitle">Projects</h1>
             <h2 className="subtitle has-text-centered is-unselectable">Click any card to view the Github repository!</h2>
             <hr />
             <Columns>
