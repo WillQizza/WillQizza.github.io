@@ -1,7 +1,7 @@
 [{
         "name": "PizzaServer",
         "description": "Leading the development of multi-protocol Minecraft Bedrock Edition server software built using Java.",
-        "image": "./imgs/pizzaserver.png",
+        "image": "./imgs/projects/pizzaserver.png",
         "repository": "https://github.com/PizzaServer/PizzaServer",
         "skills": ["Java", "JUnit5", "Bedrock Protocol"]
     },
@@ -43,7 +43,7 @@
     {
         "name": "TokyoCatch API/Discord Bot",
         "description": "TokyoCatch API & Discord chat bot to track and be notified for how many plays occur in various online crane machines.",
-        "image": "./imgs/cranebot.png",
+        "image": "./imgs/projects/cranebot.png",
         "repository": "https://github.com/WillQizza/BoinkBlonkCraneBot",
         "skills": ["Node.js", "SQL", "discord.js"]
     },
@@ -57,7 +57,7 @@
     {
         "name": "Portfolio Site",
         "description": "This website was built using React & Bulma.",
-        "image": "",
+        "image": "./imgs/projects/portfolio.png",
         "repository": "https://github.com/WillQizza/WillQizza.github.io",
         "skills": ["React", "HTML/CSS"]
     }
