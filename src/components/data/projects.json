@@ -1,63 +1,63 @@
 [{
         "name": "PizzaServer",
         "description": "Leading the development of multi-protocol Minecraft Bedrock Edition server software built using Java.",
-        "image": "./static/imgs/pizzaserver.png",
+        "image": "./imgs/pizzaserver.png",
         "repository": "https://github.com/PizzaServer/PizzaServer",
         "skills": ["Java", "JUnit5", "Bedrock Protocol"]
     },
     {
         "name": "ChatterCow",
         "description": "Chatroom application built using Express.js & Socket.IO.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/WillQizza/ChatterCow",
         "skills": ["Node.js", "HTML/CSS", "Socket.IO", "Express.js"]
     },
     {
         "name": "MessageCow",
         "description": "Messageboard project to quickly post a message out to the world using PHP & Laravel.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/WillQizza/MessageCow",
         "skills": ["PHP", "JavaScript", "SQL", "Laravel"]
     },
     {
         "name": "ChatReport",
         "description": "Java Minecraft report plugin with an internal moderation website built with Node.js.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/WillQizza/ChatReportPlugin",
         "skills": ["Node.js", "HTML/CSS", "Java", "Redis", "SQL", "Express.js"]
     },
     {
         "name": "LeaderboardAPI",
         "description": "Simple API built for easily creating leaderboards with datasources like Redis or SQL.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/WillQizza/LeaderboardAPI",
         "skills": ["Java", "SQL", "Redis"]
     },
     {
         "name": "Scrumptiousroll",
         "description": "Food identifying chrome extension built for HackTheNorth 2021.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/HannahGuo/Scrumptiousroll",
         "skills": ["JavaScript"]
     },
     {
         "name": "TokyoCatch API/Discord Bot",
         "description": "TokyoCatch API & Discord chat bot to track and be notified for how many plays occur in various online crane machines.",
-        "image": "./static/imgs/cranebot.png",
+        "image": "./imgs/cranebot.png",
         "repository": "https://github.com/WillQizza/BoinkBlonkCraneBot",
         "skills": ["Node.js", "SQL", "discord.js"]
     },
     {
         "name": "MMMConnect",
         "description": "Facebook replica created as my Computing Science 30 final project.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/WillQizza/MMMConnect",
         "skills": ["PHP", "HTML/CSS", "JavaScript"]
     },
     {
         "name": "Portfolio Site",
         "description": "This website was built using React & Bulma.",
-        "image": "https://cdn.discordapp.com/attachments/976902707854061599/982055961718054942/unknown.png",
+        "image": "",
         "repository": "https://github.com/WillQizza/WillQizza.github.io",
         "skills": ["React", "HTML/CSS"]
     }

@@ -14,11 +14,11 @@ export default class Projects extends Component {
             const project = projectsJSON[i];
 
             const columnIndex = i % 3;
-            this.projects[columnIndex].push(<Project title={project.title}
-                 description={project.description}
-                 image={project.image}
-                 repository={project.repository}
-                 skills={project.skills} />);
+            this.projects[columnIndex].push(<Project title={project.name}
+                description={project.description}
+                image={project.image}
+                repository={project.repository}
+                skills={project.skills} />);
         }
     }
     
@@ -26,7 +26,7 @@ export default class Projects extends Component {
         return <Container style={{
             paddingTop: '3.25em'    // account for nav
         }}>
-            <h1 className="title is-size-1 has-text-centered is-unselectable" style={{
+            <h1 className="title is-size-2 has-text-centered is-unselectable" style={{
                 marginTop: '1em'
             }}>Projects</h1>
             <h2 className="subtitle has-text-centered is-unselectable">Click any card to view the Github repository!</h2>

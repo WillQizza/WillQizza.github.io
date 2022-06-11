@@ -18,7 +18,7 @@ export default class Project extends Component {
         }}>
             <Card.Image src={this.props.image}></Card.Image>
             <Card.Header>
-                <Card.Header.Title className="is-size-5">{this.props.name}</Card.Header.Title>
+                <Card.Header.Title className="is-size-5">{this.props.title}</Card.Header.Title>
             </Card.Header>
             <Card.Content>
                 {this.props.description}
