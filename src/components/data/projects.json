@@ -6,20 +6,6 @@
         "skills": ["Java", "JUnit5", "Bedrock Protocol"]
     },
     {
-        "name": "ChatterCow",
-        "description": "Chatroom application built using Express.js & Socket.IO.",
-        "image": "",
-        "repository": "https://github.com/WillQizza/ChatterCow",
-        "skills": ["Node.js", "HTML/CSS", "Socket.IO", "Express.js"]
-    },
-    {
-        "name": "MessageCow",
-        "description": "Messageboard project to quickly post a message out to the world using PHP & Laravel.",
-        "image": "",
-        "repository": "https://github.com/WillQizza/MessageCow",
-        "skills": ["PHP", "JavaScript", "SQL", "Laravel"]
-    },
-    {
         "name": "ChatReport",
         "description": "Java Minecraft report plugin with an internal moderation website built with Node.js.",
         "image": "",
