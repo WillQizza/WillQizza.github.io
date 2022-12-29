@@ -14,6 +14,7 @@ export default class AboutMe extends Component {
                 I love to work on all sorts of projects in my free-time, not only because I love seeing my projects come to life and better the lives<br />
                 of others, but also to challenge myself and go beyond my limits to further improve myself as a software developer.  
             </p>
+            <p className="is-size-5"><a href="/resume.pdf">You can view my resume here!</a></p>
         </Container>;
     }
 

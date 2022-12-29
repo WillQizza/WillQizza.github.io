@@ -1,7 +1,7 @@
 import { Component } from "react";
 import { Columns, Container } from "react-bulma-components";
 import projectsJSON from './data/projects.json';
-import Project from "./Project";
+import Experience from "./Experience";
 
 export default class Projects extends Component {
 
@@ -14,7 +14,7 @@ export default class Projects extends Component {
             const project = projectsJSON[i];
 
             const columnIndex = i % 3;
-            this.projects[columnIndex].push(<Project title={project.name}
+            this.projects[columnIndex].push(<Experience title={project.name}
                 description={project.description}
                 image={project.image}
                 repository={project.repository}
@@ -28,7 +28,7 @@ export default class Projects extends Component {
         }}>
             <h1 className="title is-size-2 has-text-centered is-unselectable" style={{
                 marginTop: '1em'
-            }} id="projectsTitle">Projects</h1>
+            }} id="projectsTitle">Experiences</h1>
             <h2 className="subtitle has-text-centered is-unselectable">Click any card to view the Github repository!</h2>
             <hr />
             <Columns>
