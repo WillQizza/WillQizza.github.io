@@ -1,6 +1,6 @@
-@use "../Colors.scss";
+@use "../Variables.scss";
 
-$caret-styling-on: 5px solid Colors.$font-color;
+$caret-styling-on: 5px solid Variables.$font-color;
 $caret-styling-off: 5px solid transparent;
 
 #landing-container {
