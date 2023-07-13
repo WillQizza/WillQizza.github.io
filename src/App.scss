@@ -1,7 +1,18 @@
+$background-color: #48b5e0;
+$scrollbar-thumb-color: #249bca;
+
 html, body, #root {
   height: 100%;
 }
 
 body {
-  background-color: #48b5e0;
+  background: $background-color;
+}
+
+::-webkit-scrollbar {
+  background-color: $background-color;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $scrollbar-thumb-color;
 }
