@@ -1,7 +1,8 @@
-import { Component, UIEvent } from "react";
-import "./Landing.scss";
+import { Component } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faAngleDown } from "@fortawesome/free-solid-svg-icons";
+
+import "./Landing.scss";
 
 export default class Landing extends Component {
 
@@ -16,10 +17,12 @@ export default class Landing extends Component {
             </div>
 
             <div id="landing-scroll-down-hint-container">
-                <div>
-                    View my Projects<br />
-                    <FontAwesomeIcon icon={faAngleDown} />
-                </div>
+                <a href="#projects">
+                    <div>
+                        View my Projects<br />
+                        <FontAwesomeIcon icon={faAngleDown} />
+                    </div>
+                </a>
             </div>
         </div>
     }

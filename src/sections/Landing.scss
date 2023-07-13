@@ -1,6 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&display=swap");
+@use "../Colors.scss";
 
-$caret-styling-on: 5px solid #fff;
+$caret-styling-on: 5px solid Colors.$font-color;
 $caret-styling-off: 5px solid transparent;
 
 #landing-container {
@@ -76,7 +76,6 @@ $caret-styling-off: 5px solid transparent;
 
     h1, h2, p {
         cursor: default;
-        font-family: 'Cabin', sans-serif;
     }
 }
 

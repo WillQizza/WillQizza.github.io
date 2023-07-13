@@ -1,18 +1,29 @@
-$background-color: #48b5e0;
-$scrollbar-thumb-color: #249bca;
+@use "./Colors.scss";
+
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@500;700&display=swap");
 
 html, body, #root {
   height: 100%;
 }
 
 body {
-  background: $background-color;
+  background: Colors.$background-color;
+  font-family: 'Cabin', sans-serif;
 }
 
 ::-webkit-scrollbar {
-  background-color: $background-color;
+  background-color: Colors.$background-color;
 }
 
 ::-webkit-scrollbar-thumb {
-  background-color: $scrollbar-thumb-color;
+  background-color: Colors.$scrollbar-thumb-color;
+}
+
+a {
+  text-decoration: none;
+  color: Colors.$font-color;
+}
+
+a:hover {
+  color: Colors.$link-hover-color;
 }
