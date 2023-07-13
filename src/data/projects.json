@@ -3,7 +3,13 @@
         "name": "Chef Kirby",
         "description": "A recipe sharing website with your best pal Kirby!",
         "repository": "https://github.com/WillQizza/Chef-Kirby",
-        "skills": ["Node.js", "SQL", "HTML/CSS", "Express.js"]
+        "skills": ["Node.js", "TypeScript", "SQL", "HTML/CSS", "Express.js"]
+    },
+    {
+        "name": "Ei",
+        "description": "Developer home assistant application inspired by the Raiden Shogun from Genshin Impact.",
+        "repository": "https://github.com/WillQizza/Ei",
+        "skills": ["Node.js", "TypeScript"]
     },
     {
         "name": "QRHunter",
@@ -16,6 +22,12 @@
         "description": "Leading the development of multi-protocol Minecraft Bedrock Edition server software built using Java.",
         "repository": "https://github.com/PizzaServer/PizzaServer",
         "skills": ["Java", "JUnit5", "Bedrock Protocol"]
+    },
+    {
+        "name": "Scrumptiousroll",
+        "description": "Food identifying chrome extension built for HackTheNorth 2021.",
+        "repository": "https://github.com/HannahGuo/Scrumptiousroll",
+        "skills": ["JavaScript"]
     },
     {
         "name": "ChatReport",
@@ -34,12 +46,6 @@
         "description": "Simple API built for easily creating leaderboards with datasources like Redis or SQL.",
         "repository": "https://github.com/WillQizza/LeaderboardAPI",
         "skills": ["Java", "SQL", "Redis"]
-    },
-    {
-        "name": "Scrumptiousroll",
-        "description": "Food identifying chrome extension built for HackTheNorth 2021.",
-        "repository": "https://github.com/HannahGuo/Scrumptiousroll",
-        "skills": ["JavaScript"]
     },
     {
         "name": "TokyoCatch API/Discord Bot",
