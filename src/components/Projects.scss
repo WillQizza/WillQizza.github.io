@@ -54,6 +54,19 @@
                 color: Variables.$background-color;
                 cursor: pointer;
             }
+
+            .skills {
+                list-style-type: none;
+                padding-inline-start: 0;
+
+                .skill {
+                    display: inline-block;
+                    background: Variables.$project-box-skill-color;
+
+                    padding: 10px;
+                    margin: 10px;
+                }
+            }
         }
 
         .project.placeholder {

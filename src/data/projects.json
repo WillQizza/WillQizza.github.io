@@ -21,7 +21,7 @@
         "name": "PizzaServer",
         "description": "Leading the development of multi-protocol Minecraft Bedrock Edition server software built using Java.",
         "repository": "https://github.com/PizzaServer/PizzaServer",
-        "skills": ["Java", "JUnit5", "Bedrock Protocol"]
+        "skills": ["Java", "JUnit5", "Protocol Development"]
     },
     {
         "name": "Scrumptiousroll",

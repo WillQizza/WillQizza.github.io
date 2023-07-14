@@ -1,0 +1,77 @@
+[
+    {
+        "company": "Vanmok Leak Detection Technologies",
+        "title": "Software Developer Intern",
+        "image": null,
+        "responsibilities": [],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "May",
+            "year": 2023
+        },
+        "to": {
+            "month": null,
+            "year": null
+        }
+    },
+    {
+        "company": "Minecap Games",
+        "title": "Developer Manager",
+        "image": null,
+        "responsibilities": [],
+        "location": "Remote",
+        "from": {
+            "month": "January",
+            "year": 2023
+        },
+        "to": {
+            "month": "June",
+            "year": 2023
+        }
+    },
+    {
+        "company": "Relm.US",
+        "title": "Full-stack Software Developer",
+        "image": null,
+        "responsibilities": [],
+        "location": "Remote",
+        "from": {
+            "month": "June",
+            "year": 2022
+        },
+        "to": {
+            "month": "April",
+            "year": 2023
+        }
+    },
+    {
+        "company": "MadBlock Games",
+        "title": "Java Software Developer",
+        "image": null,
+        "responsibilities": [],
+        "location": "Remote",
+        "from": {
+            "month": "June",
+            "year": 2020
+        },
+        "to": {
+            "month": "June",
+            "year": 2022
+        }
+    },
+    {
+        "company": "iDream Communcations Initivative Inc",
+        "title": "Full-stack Software Developer",
+        "image": null,
+        "responsibilities": [],
+        "location": "Remote",
+        "from": {
+            "month": "January",
+            "year": 2016
+        },
+        "to": {
+            "month": "June",
+            "year": 2022
+        }
+    }
+]

@@ -1,0 +1,41 @@
+@use "../Variables.scss";
+
+#experiences-container {
+    background-color: Variables.$background-color;
+    width: 100%;
+    padding-top: Variables.$nav-height;
+    padding-bottom: 40px;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        padding-bottom: 0;
+        padding-top: 40px;
+        margin-bottom: 0;
+        cursor: default;
+    }
+
+    hr {
+        border: 1px solid Variables.$font-color;
+        width: 20%;
+    }
+
+    #experiences {
+        background: linear-gradient(Variables.$font-color, Variables.$font-color) no-repeat center/2px 100%;
+        padding-top: 200px;
+
+        .experience {
+            margin-left: auto;
+            margin-right: auto;
+            transform: translateX(calc(-50% - 2px));
+            width: 25%;
+            background-color: Variables.$project-box-color;
+            color: Variables.$project-box-font-color;
+            margin-bottom: 200px;
+        }
+
+        .experience:nth-child(2n) {
+            transform: translateX(calc(50% + 2px));
+        }
+    }
+}
