@@ -26,8 +26,7 @@
         .experience {
             margin-left: auto;
             margin-right: auto;
-            transform: translateX(calc(-50% - 2px));
-            width: 40%;
+            width: 90%;
             color: #eeeeee;
             margin-bottom: 200px;
 
@@ -43,11 +42,31 @@
                     padding-bottom: 10px;
                 }
             }
+
+            .experience-info {
+                float: left;
+                width: 40%;
+            }
+
+            .experience-photo {
+                float: right;
+                width: 60%;
+            }
+
+            .experience-clear {
+                clear: both;
+            }
         }
 
         .experience:nth-child(2n) {
-            text-align: right;
-            transform: translateX(calc(50% + 2px));
+            .experience-info {
+                float: right;
+            }
+
+            .experience-photo {
+                float: left;
+            }
         }
+
     }
 }
