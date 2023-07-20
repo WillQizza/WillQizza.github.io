@@ -73,10 +73,6 @@ $caret-styling-off: 5px solid transparent;
         margin-bottom: 0;
         text-align: center;
     }
-
-    h1, h2, p {
-        cursor: default;
-    }
 }
 
 #landing-scroll-down-hint-container {
@@ -94,7 +90,6 @@ $caret-styling-off: 5px solid transparent;
         margin-right: auto;
         width: min-content;
         white-space: nowrap;
-        cursor: pointer;
         padding: 15px;
     }
 }
