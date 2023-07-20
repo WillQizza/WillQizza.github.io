@@ -31,9 +31,13 @@
             display: flex;
             align-items: stretch;
 
-            h3 {
+            .experience-company {
                 margin: 0;
                 padding: 0;
+            }
+
+            .experience-title, .experience-duration {
+                font-size: 1.1em;
             }
 
             ul {
@@ -46,7 +50,7 @@
 
             .experience-info {
                 width: 90%;
-                padding-bottom: 200px;
+                padding-bottom: 100px;
             }
 
             .experience-timeline {

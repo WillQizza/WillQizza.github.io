@@ -29,9 +29,9 @@ export default class Experience extends Component<ExperienceProperties> {
                 <div className="experience-timeline-line"></div>
             </div>
             <div className="experience-info">
-                <h3>{ this.props.company }</h3>
-                <i>{ this.props.title }</i><br />
-                <span>
+                <h2 className="experience-company">{ this.props.company }</h2>
+                <i className="experience-title">{ this.props.title }</i><br />
+                <span className="experience-duration">
                     { this.props.from.month } { this.props.from.year } - { endDate }
                 </span>
                 <ul>

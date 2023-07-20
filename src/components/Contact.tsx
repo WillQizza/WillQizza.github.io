@@ -8,7 +8,14 @@ export default class Contact extends Component {
         return <div id="contact-container">
             <h1>Contact</h1>
             <hr />
-            <div></div>
+            <div>
+                <div id="contact-profile">
+
+                </div>
+                <div id="contact-information">
+
+                </div>
+            </div>
         </div>
     }
 
