@@ -10,7 +10,7 @@ type ProjectProperties = {
 export default class Project extends Component<ProjectProperties> {
 
     render() {
-        const skills = this.props.skills.map(skill => <li className="skill">{skill}</li>);
+        const skills = this.props.skills.map(skill => <li key={skill} className="skill">{skill}</li>);
 
         return <div className="project">
             <h3 className="title"><a className="repository" href={ this.props.repository }>{ this.props.name }</a></h3>

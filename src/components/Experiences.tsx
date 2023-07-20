@@ -12,9 +12,9 @@ export default class Experiences extends Component {
             <h1>Experience</h1>
             <hr />
             <div id="experiences">
-                { experiences.map(json => <Experience company={json.company} 
+                { experiences.map(json => <Experience   key={json.id}
+                                                        company={json.company} 
                                                         title={json.title} 
-                                                        image={json.image} 
                                                         responsibilities={json.responsibilities} 
                                                         location={json.location}
                                                         to={json.to} 

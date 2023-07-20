@@ -14,8 +14,8 @@ export default class Projects extends Component {
             <h1>Projects</h1>
             <hr />
             <div id="projects">
-                { projects.map(project => <Project name={project.name} description={project.description} skills={project.skills} repository={project.repository} />) }
-                { Array.from({ length: (projects.length - 1) % IDEAL_COLUMNS }).map(() => <div className="project placeholder"></div>) }
+                { projects.map(project => <Project key={project.repository} name={project.name} description={project.description} skills={project.skills} repository={project.repository} />) }
+                { Array.from({ length: (projects.length - 1) % IDEAL_COLUMNS }).map((_, index) => <div key={index} className="project placeholder"></div>) }
             </div>
         </div>
     }

@@ -63,6 +63,6 @@
         "name": "Portfolio Site",
         "description": "This website was built using React.",
         "repository": "https://github.com/WillQizza/WillQizza.github.io",
-        "skills": ["React", "HTML/CSS"]
+        "skills": ["React", "HTML/CSS", "TypeScript"]
     }
 ]
