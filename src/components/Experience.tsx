@@ -34,8 +34,8 @@ export default class Experience extends Component<ExperienceProperties> {
                 <span className="experience-duration">
                     { this.props.from.month } { this.props.from.year } - { endDate }
                 </span>
-                <ul>
-                    { this.props.responsibilities.map(responsibility => <li key={responsibility}>{ responsibility }</li>) }
+                <ul className="experience-responsibilities">
+                    { this.props.responsibilities.map(responsibility => <li className="experience-responsibility" key={responsibility}>{ responsibility }</li>) }
                 </ul>
             </div>
             <div className="experience-clear"></div>
