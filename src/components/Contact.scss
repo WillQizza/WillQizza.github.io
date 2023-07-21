@@ -1,0 +1,60 @@
+@use "../Variables.scss";
+
+#contact-container {
+    min-height: calc(100vh);
+    background-color: Variables.$secondary-background-color;
+    width: 100%;
+    padding-top: Variables.$nav-height;
+
+    h1 {
+        text-align: center;
+        font-size: 3em;
+        padding-bottom: 0;
+        padding-top: 40px;
+        margin-bottom: 0;
+    }
+
+    hr {
+        border: 1px solid Variables.$font-color;
+        width: 20%;
+    }
+
+    #contact-avatar {
+        margin-left: auto;
+        margin-right: auto;
+        width: min-content;
+        max-width: 100%;
+        margin-bottom: 20px;
+
+        img {
+            border-radius: 50%;
+        }
+    }
+
+    #contact-content.visible {
+        animation: fade-in 1s;
+        animation-fill-mode: forwards;
+    }
+
+    #contact-content {
+        font-size: 1.1em;
+        padding: 20px;
+        width: 30%;
+        min-width: 330px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        opacity: 0;
+        
+        #contact-socials {
+            padding-top: 30px;
+
+            .contact-social {
+                font-size: 2.5em;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
+    }
+
+}

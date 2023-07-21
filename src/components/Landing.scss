@@ -1,0 +1,86 @@
+@use "../Variables.scss";
+@use "../Animations.scss";
+
+$caret-styling-on: 5px solid Variables.$font-color;
+$caret-styling-off: 5px solid transparent;
+
+#landing-container {
+    width: 100%;
+    height: 100%;
+}
+
+@keyframes typing {
+    from {
+        width: 0%;
+        border-right: $caret-styling-on;
+    }
+    to {
+        width: 100%;
+        border-right: $caret-styling-on;
+    }
+}
+
+@keyframes caret {
+    0%, 100% {
+        border-right: $caret-styling-on;
+    }
+    50% {
+        border-right: $caret-styling-off;
+    }
+}
+
+#landing-info {
+    position: relative;
+    top:50%;
+    transform: translateY(-50%);
+    animation: fade-in-bottom 1s;
+
+    h1 {
+        font-size: 4em;
+    }
+    h2 {
+        font-size: 2em;
+    }
+
+    #landing-tagline-container {
+        width: min-content;
+        margin-left: auto;
+        margin-right: auto;
+
+        p {
+            width: 0;
+            animation: typing 3s steps(60, start), caret 1s step-end infinite;
+            animation-delay: 1s, 4s;
+            animation-fill-mode: forwards;
+    
+            font-size: 1.1em;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+    
+    }
+    h1, h2 {
+        margin-top: 0;
+        margin-bottom: 0;
+        text-align: center;
+    }
+}
+
+#landing-scroll-down-hint-container {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    opacity: 0;
+    animation: fade-in-bottom 1s;
+    animation-delay: 4s;
+    animation-fill-mode: forwards;
+
+    div {
+        margin-left: auto;
+        margin-right: auto;
+        width: min-content;
+        white-space: nowrap;
+        padding: 15px;
+    }
+}
