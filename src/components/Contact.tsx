@@ -4,11 +4,12 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 
 import "./Contact.scss";
+import { SectionProperties } from "./utils";
 
-export default class Contact extends Component {
+export default class Contact extends Component<SectionProperties> {
 
     render() {
-        return <div id="contact-container">
+        return <div id="contact-container" ref={ this.props.waypoint }>
             <h1>Contact</h1>
             <hr />
             <div id="contact-content">

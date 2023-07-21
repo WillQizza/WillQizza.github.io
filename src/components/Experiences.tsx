@@ -3,12 +3,12 @@ import "./Experiences.scss";
 
 import experiences from "../data/experience.json";
 import Experience from "./Experience";
+import { SectionProperties } from "./utils";
 
-export default class Experiences extends Component {
+export default class Experiences extends Component<SectionProperties> {
 
     render() {
-        
-        return <div id="experiences-container">
+        return <div id="experiences-container" ref={this.props.waypoint}>
             <h1>Experience</h1>
             <hr />
             <div id="experiences">
