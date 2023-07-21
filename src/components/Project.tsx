@@ -1,4 +1,5 @@
 import { Component } from "react";
+import { InView } from "react-intersection-observer";
 
 type ProjectProperties = {
     name: string;
@@ -12,14 +13,18 @@ export default class Project extends Component<ProjectProperties> {
     render() {
         const skills = this.props.skills.map(skill => <li key={skill} className="skill">{skill}</li>);
 
-        return <div className="project">
-            <h3 className="title"><a className="repository" href={ this.props.repository } target="_blank" rel="noreferrer">{ this.props.name }</a></h3>
-            { this.props.description }
-            <br /><br />
-            <ul className="skills">
-                { skills }
-            </ul>
-        </div>;
+        return <InView triggerOnce={true}>
+            {({ inView, ref }) => (
+                <div ref={ref} className={inView ? "project visible" : "project"}>
+                    <h3 className="title"><a className="repository" href={ this.props.repository } target="_blank" rel="noreferrer">{ this.props.name }</a></h3>
+                    { this.props.description }
+                    <br /><br />
+                    <ul className="skills">
+                        { skills }
+                    </ul>
+                </div>  
+            )}
+        </InView>;
     }
 
 }

@@ -1,4 +1,5 @@
 @use "../Variables.scss";
+@use "../Animations.scss";
 
 #experiences-container {
     background-color: Variables.$background-color;
@@ -19,8 +20,14 @@
         width: 20%;
     }
 
+    #experiences.visible {
+        animation: fade-in 1s;
+        animation-fill-mode: forwards;
+    }
+
     #experiences {
         padding-top: 50px;
+        opacity: 0;
 
         .experience {
             margin-left: auto;
