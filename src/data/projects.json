@@ -1,7 +1,7 @@
 [
     {
         "name": "Overdone",
-        "description": "Overdone allows you to share and store personal recipes that with your friends and family.",
+        "description": "Overdone allows you to share and store personal recipes with your friends and family.",
         "repository": "https://github.com/WillQizza/Overdone",
         "skills": ["Node.js", "TypeScript", "SQL", "React", "HTML/CSS", "Express.js"]
     },
