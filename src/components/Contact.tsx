@@ -14,7 +14,7 @@ export default class Contact extends Component<SectionProperties> {
         return <div id="contact-container" ref={ this.props.waypoint }>
             <h1>Contact</h1>
             <hr />
-            <InView>
+            <InView triggerOnce={true}>
                 {({ inView, ref }) => (
                     <div id="contact-content" ref={ref} className={inView ? "visible" : ""}>
                         <div id="contact-avatar">
