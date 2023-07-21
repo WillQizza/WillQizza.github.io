@@ -39,6 +39,15 @@
         margin-left: auto;
         margin-right: auto;
         text-align: center;
+        
+        #contact-socials {
+
+            .contact-social {
+                font-size: 2.5em;
+                margin-left: 10px;
+                margin-right: 10px;
+            }
+        }
     }
 
 }
