@@ -1,15 +1,15 @@
 [
     {
-        "name": "Chef Kirby",
-        "description": "A recipe sharing website with your best pal Kirby!",
-        "repository": "https://github.com/WillQizza/Chef-Kirby",
-        "skills": ["Node.js", "TypeScript", "SQL", "HTML/CSS", "Express.js"]
+        "name": "Overdone",
+        "description": "Overdone allows you to share and store personal recipes that with your friends and family.",
+        "repository": "https://github.com/WillQizza/Overdone",
+        "skills": ["Node.js", "TypeScript", "SQL", "React", "HTML/CSS", "Express.js"]
     },
     {
         "name": "Ei",
         "description": "Developer home assistant application inspired by the Raiden Shogun from Genshin Impact.",
         "repository": "https://github.com/WillQizza/Ei",
-        "skills": ["Node.js", "TypeScript"]
+        "skills": ["Node.js", "TypeScript", "Electron"]
     },
     {
         "name": "QRHunter",
