@@ -4,10 +4,10 @@
         "company": "Vanmok Leak Detection Technologies",
         "title": "Software Developer Intern",
         "responsibilities": [
-            "Created an internal documentation site in Python, leveraging the Active Directory authentication protocol for secure access control, ensuring that only authorized company personnel can access internal documents and announcements",
+            "Created an internal company site in Python, leveraging the Active Directory authentication protocol for secure access control to confidential documents and announcements",
             "Deployed and configured multiple microservices on Kubernetes and Docker, utilizing containerization and orchestration to ensure scalability, resilience, and efficient management of the application infrastructure",
-            "Wrote comprehensive documentation of software development practices, including coding standards, system architecture diagrams, and user guides, ensuring consistent and high-quality software usage and practices",
-            "Developed a custom plugin for internal statistical analysis within WordPress, leveraging PHP and WordPress APIs to collect, analyze, and present data, providing valuable insights for informed decision-making"
+            "Developed a custom plugin for internal statistical analysis within WordPress, leveraging PHP and the WordPress API to collect, analyze, and present data for informed decision-making",
+            "Wrote comprehensive documentation of software development practices, including coding standards, system architecture diagrams, and user guides, ensuring consistent and high-quality software usage and practices"
         ],
         "location": "Edmonton, Alberta",
         "from": {
@@ -24,10 +24,10 @@
         "company": "Minecap Games",
         "title": "Developer Manager",
         "responsibilities": [
-            "Collaborated with a prominent YouTuber with over 1.5 million subscribers to design and build a polished game experience, attracting a large player base and fostering community engagement",
-            "Optimized software performance including a significant enhancement by rewriting internal software to utilize multithreading, which resulted in a increase of concurrent users by over 300%",
+            "Led a team of developers to deliver a polished game experience written in Java, reaching an audience of over 40,000 unique players",
+            "Dramatically improved server software performance by utilizing multithreading, resulting in an increase of over 300% of concurrent users",
             "Implemented and managed the automation of streamlined provisioning, deployment, and monitoring processes, resulting in increased operational efficiency",
-            "Managed project timelines, resource allocation, and coordinated efforts between development, upper management, and operations teams"
+            "Oversaw project timelines, allocated resources effectively, and fostered seamless coordination between development, upper management, and operations teams"
         ],
         "location": "Remote",
         "from": {
@@ -78,7 +78,7 @@
     },
     {
         "id": "idream",
-        "company": "iDream Communcations Initivative Inc",
+        "company": "iDream Communications Initivative Inc",
         "title": "Full-stack Software Developer",
         "responsibilities": [
             "Led the development of an interactive city roleplay chat-based game application (written in Node.js) used by over 10,000 unique players using the Discord API",

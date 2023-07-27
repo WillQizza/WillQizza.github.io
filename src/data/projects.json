@@ -6,12 +6,6 @@
         "skills": ["Node.js", "TypeScript", "SQL", "React", "HTML/CSS", "Express.js"]
     },
     {
-        "name": "Ei",
-        "description": "Developer home assistant application inspired by the Raiden Shogun from Genshin Impact.",
-        "repository": "https://github.com/WillQizza/Ei",
-        "skills": ["Node.js", "TypeScript", "Electron"]
-    },
-    {
         "name": "QRHunter",
         "description": "An Android app made in collaboration with 5 other members utilizing software development practices to created a gamified QR collecting experience.",
         "repository": "https://github.com/CMPUT301W23T09/QRHunter",
