@@ -4,8 +4,8 @@
         "company": "Vanmok Leak Detection Technologies",
         "title": "Software Developer Intern",
         "responsibilities": [
-            "Created an internal company site in Python, leveraging the Active Directory authentication protocol for secure access control to confidential documents and announcements",
-            "Deployed and configured multiple microservices on Kubernetes and Docker, utilizing containerization and orchestration to ensure scalability, resilience, and efficient management of the application infrastructure",
+            "Created an internal website in Python using Flask, leveraging the Active Directory authentication protocol for secure access control to confidential documents and announcements",
+            "Deployed and configured Kubernetes, Docker, and multiple internal proprietary applications, optimizing the development workflow and deployment process",
             "Developed a custom plugin for internal statistical analysis within WordPress, leveraging PHP and the WordPress API to collect, analyze, and present data for informed decision-making",
             "Wrote comprehensive documentation of software development practices, including coding standards, system architecture diagrams, and user guides, ensuring consistent and high-quality software usage and practices"
         ],
@@ -15,8 +15,8 @@
             "year": 2023
         },
         "to": {
-            "month": null,
-            "year": null
+            "month": "August",
+            "year": 2024
         }
     },
     {
