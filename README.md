@@ -8,7 +8,7 @@ This project was built in my spare time using a mixture of both `TypeScript` and
 
 ## How To Run (Local)
 
-- `git clone `
+- `git clone https://github.com/WillQizza/WillQizza.github.io.git`
 - `cd WillQizza.github.io`
 - `npm install`
 - `npm run-script start`
@@ -20,7 +20,7 @@ This project was built in my spare time using a mixture of both `TypeScript` and
 
 ## How To Run (Docker)
 
-- `git clone`
+- `git clone https://github.com/WillQizza/WillQizza.github.io.git`
 - `cd WillQizza.github.io`
 - `docker build -t portfolio:1 .`
 - `docker run -p 3000:80 --name portfolio --restart always portfolio:1`
