@@ -16,7 +16,7 @@ This project was built in my spare time using a mixture of both `TypeScript` and
 
 ## How To Run (Kubernetes)
 
-- `kubectl apply -f https://github.com/WillQizza/WillQizza.github.io/blob/master/kubernetes.yaml`
+- `kubectl apply -f https://raw.githubusercontent.com/WillQizza/WillQizza.github.io/master/kubernetes.yaml`
 
 ## How To Run (Docker)
 
