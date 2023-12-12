@@ -55,8 +55,8 @@
     },
     {
         "name": "Portfolio Site",
-        "description": "This website was built using React.",
+        "description": "This website was built using React and deployed using Kubernetes and Docker.",
         "repository": "https://github.com/WillQizza/WillQizza.github.io",
-        "skills": ["React", "HTML/CSS", "TypeScript"]
+        "skills": ["Kubernetes", "Docker", "React", "HTML/CSS", "TypeScript"]
     }
 ]
