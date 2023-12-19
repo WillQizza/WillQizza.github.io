@@ -1,14 +1,17 @@
 FROM node:20.0.0 AS source
-WORKDIR /app
+ENV PNPM_HOME="/pnpm"
+ENV PATH="$PNPM_HOME:$PATH"
+RUN corepack enable
 
+WORKDIR /app
 COPY package.json .
-COPY package-lock.json .
-RUN npm install
+COPY pnpm-lock.yaml .
+RUN pnpm install --frozen-lockfile
 
 COPY src ./src
 COPY public ./public
 COPY tsconfig.json .
-RUN npm run build
+RUN pnpm run build
 
 FROM nginx:1.25.2
 WORKDIR /usr/share/nginx/html
