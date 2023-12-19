@@ -1,6 +1,4 @@
 FROM node:20.0.0 AS source
-ENV PNPM_HOME="/pnpm"
-ENV PATH="$PNPM_HOME:$PATH"
 RUN corepack enable
 
 WORKDIR /app
