@@ -10,6 +10,8 @@ on:
   jobs:
     deploy:
       runs-on: ubuntu-latest
+      environment:
+        name: docker
       steps:
         - name: Setup QEMU
           uses: docker/setup-qemu-action@v3
