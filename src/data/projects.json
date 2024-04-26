@@ -1,5 +1,11 @@
 [
     {
+        "name": "The Deadly Bird",
+        "description": "Managed a team of 6 and built a distributed social media network with Stripe integration to support purchasing premium online services.",
+        "repository": "https://github.com/uofa-cmput404/w24-project-the-deadly-bird",
+        "skills": ["TypeScript", "Python", "React", "Django", "Docker", "Stripe"]
+    },
+    {
         "name": "RenoWorld",
         "description": "Developed a MVP for a startup that simplifies the process of connecting homeowners and contractors by providing a one-stop platform for home improvement projects.",
         "repository": "https://cmput401.ca/projects/14496e2a-c739-45ec-81d1-eb3d47372f5d",
