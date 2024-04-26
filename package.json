@@ -2,7 +2,7 @@
   "name": "willqizza.github.io",
   "version": "0.1.0",
   "license": "MIT",
-  "homepage": "https://willqizza.github.io",
+  "homepage": "https://willqi.dev",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@fortawesome/fontawesome-svg-core": "^6.4.0",
