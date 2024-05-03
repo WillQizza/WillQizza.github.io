@@ -2,7 +2,7 @@
     {
         "name": "The Deadly Bird",
         "description": "Managed a team of 6 and built a distributed social media network deployed on Heroku, in addition to integrating Stripe for purchasing premium online services on our site.",
-        "repository": "https://github.com/uofa-cmput404/w24-project-the-deadly-bird",
+        "repository": "https://github.com/WillQizza/The-Deadly-Bird",
         "skills": ["TypeScript", "Python", "React", "Django", "Docker", "Stripe", "Heroku"]
     },
     {
