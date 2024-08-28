@@ -1,5 +1,11 @@
 [
     {
+        "name": "WillQi.dev",
+        "description": "Configured and currently run multiple user-facing and monitoring applications on this domain's server, utilizing IaC, to assist with day-to-day activities and to experiment with new emerging technologies.",
+        "repository": "https://willqi.dev",
+        "skills": ["Terraform", "Ansible", "Kubernetes", "Docker", "Prometheus", "Grafana",  "Linux"]
+    },
+    {
         "name": "The Deadly Bird",
         "description": "Managed a team of 6 and built a distributed social media network deployed on Heroku, in addition to integrating Stripe for purchasing premium online services on our site.",
         "repository": "https://github.com/WillQizza/The-Deadly-Bird",

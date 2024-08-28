@@ -1,5 +1,27 @@
 [
     {
+        "id": "vanmok2",
+        "company": "Vanmok Leak Detection Technologies",
+        "title": "Software Developer Intern",
+        "responsibilities": [
+            "Configured a Grafana dashboard to monitor and track external API statuses, usage, and remaining capacity, with alerting for critical issues",
+            "Developed automation scripts to reduce developer time spent from 40 minutes to approximately 10 minutes",
+            "Developed a status website using ASP.NET with MVVM architecture to display company application statuses and ensure compliance with SLA requirements",
+            "Gained extensive experience working with COM interfaces, focusing on interprocess communication between C# and C++",
+            "Built numerous email API subscription microservices utilizing Python, Helm, Kubernetes, and MySQL",
+            "Enhanced company-wide efficiency and customer response time by building automated ticketing system workflows and applications to provide better organization, automated sorting, and improved task visibility"
+        ],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "May",
+            "year": 2024
+        },
+        "to": {
+            "month": "August",
+            "year": 2024
+        }
+    },
+    {
         "id": "vanmok",
         "company": "Vanmok Leak Detection Technologies",
         "title": "Software Developer Intern",
