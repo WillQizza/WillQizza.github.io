@@ -1,5 +1,23 @@
 [
     {
+        "id": "uofa",
+        "company": "University of Alberta",
+        "title": "Undergraduate Teaching Assistant",
+        "responsibilities": [
+            "Created and led multiple lab sessions for CMPUT 404, a course centered on web applications and architecture",
+            "Conducted office hours to offer additional guidance and support, tutoring students to help them understand course material"
+        ],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "September",
+            "year": 2024
+        },
+        "to": {
+            "month": null,
+            "year": null
+        }
+    },
+    {
         "id": "vanmok2",
         "company": "Vanmok Leak Detection Technologies",
         "title": "Software Developer Intern",
