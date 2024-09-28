@@ -15,7 +15,7 @@ export default class Landing extends Component<LandingProperties> {
         return <div id="landing-container" ref={this.props.waypoint}>
             <div id="landing-info">
                 <h1>Hey, I'm William</h1>
-                <h2>Student Software Developer</h2>
+                <h2>Software Developer</h2>
                 <div id="landing-tagline-container">
                     <p>Software developer creating streamlined solutions</p>
                 </div>
