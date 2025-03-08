@@ -6,6 +6,17 @@
         "skills": ["Terraform", "Ansible", "Kubernetes", "Docker", "Prometheus", "Grafana",  "Linux"]
     },
     {
+        "name": "MoreKuruKuru",
+        "description": "Work in progress project that uses DCOM and interprocess communication between C++ and C# to create funny kurukuru popups on other registered computer clients in your network.",
+        "skills": ["C++", "C#", "COM"]
+    },
+    {
+        "name": "UwU Compiler",
+        "description": "An LLVM compiler written in C++ for \"the next generation esoteric language\" called UwU++",
+        "repository": "https://github.com/WillQizza/UwU-Compiler",
+        "skills": ["C++", "C", "LLVM", "ANTLR"]
+    },
+    {
         "name": "The Deadly Bird",
         "description": "Managed a team of 6 and built a distributed social media network deployed on Heroku, in addition to integrating Stripe for purchasing premium online services on our site.",
         "repository": "https://github.com/WillQizza/The-Deadly-Bird",
