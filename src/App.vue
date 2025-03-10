@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import Landing from './components/Landing.vue';
 import NavigationBar from './components/NavigationBar.vue';
+import Projects from './components/Projects.vue';
 </script>
 
 <template>
     <NavigationBar />
     <Landing />
+    <Projects />
 </template>
 
 <style>

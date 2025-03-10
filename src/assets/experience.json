@@ -1,0 +1,139 @@
+[
+    {
+        "id": "uofa",
+        "company": "University of Alberta",
+        "title": "Undergraduate Teaching Assistant",
+        "responsibilities": [
+            "Created and led multiple lab sessions for CMPUT 404, a course centered on web applications and architecture",
+            "Conducted office hours to offer additional guidance and support, tutoring students to help them understand course material"
+        ],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "September",
+            "year": 2024
+        },
+        "to": {
+            "month": null,
+            "year": null
+        }
+    },
+    {
+        "id": "vanmok2",
+        "company": "Vanmok Leak Detection Technologies",
+        "title": "Software Developer Intern",
+        "responsibilities": [
+            "Configured a Grafana dashboard to monitor and track external API statuses, usage, and remaining capacity, with alerting for critical issues",
+            "Created automation scripts to reduce developer time spent from 40 minutes to approximately 10 minutes",
+            "Developed a status website using ASP.NET with MVVM architecture to display company application statuses and ensure compliance with SLA requirements",
+            "Gained extensive experience working with COM interfaces, focusing on interprocess communication between C# and C++",
+            "Built numerous email API subscription microservices utilizing Python, Helm, Kubernetes, and MySQL",
+            "Enhanced company-wide efficiency and customer response time by building automated ticketing system workflows and applications to provide better organization, automated sorting, and improved task visibility"
+        ],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "May",
+            "year": 2024
+        },
+        "to": {
+            "month": "August",
+            "year": 2024
+        }
+    },
+    {
+        "id": "vanmok",
+        "company": "Vanmok Leak Detection Technologies",
+        "title": "Software Developer Intern",
+        "responsibilities": [
+            "Created an internal website in Python using Flask, leveraging the Active Directory authentication protocol for secure access control to confidential documents and announcements",
+            "Deployed and configured Kubernetes, Docker, and multiple internal proprietary applications, optimizing the development workflow and deployment process",
+            "Developed a custom plugin for internal statistical analysis within WordPress, leveraging PHP and the WordPress API to collect, analyze, and present data for informed decision-making",
+            "Wrote comprehensive documentation of software development practices, including coding standards, system architecture diagrams, and user guides, ensuring consistent and high-quality software usage and practices"
+        ],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "May",
+            "year": 2023
+        },
+        "to": {
+            "month": "August",
+            "year": 2023
+        }
+    },
+    {
+        "id": "minecap",
+        "company": "Minecap Games",
+        "title": "Developer Manager",
+        "responsibilities": [
+            "Led a team of developers to deliver a polished game experience written in Java, reaching an audience of over 40,000 unique players",
+            "Dramatically improved server software performance by utilizing multithreading, resulting in an increase of over 300% of concurrent users",
+            "Implemented and managed the automation of streamlined provisioning, deployment, and monitoring processes, resulting in increased operational efficiency",
+            "Oversaw project timelines, allocated resources effectively, and fostered seamless coordination between development, upper management, and operations teams"
+        ],
+        "location": "Remote",
+        "from": {
+            "month": "January",
+            "year": 2023
+        },
+        "to": {
+            "month": "June",
+            "year": 2023
+        }
+    },
+    {
+        "id": "relm",
+        "company": "Relm.US",
+        "title": "Full-stack Software Developer",
+        "responsibilities": [
+            "Led the development of new REST API routes to support account authentication using TypeScript & SQL and developed the frontend login and registration screen using Svelte",
+            "Worked to expand our existing API written in TypeScript to allow third-party programs to directly interact with our service; researched and developed an n8n node, allowing integration of Relm into various business workflow automation use cases",
+            "Planned and developed unit integration tests in Jest, catching multiple issues before they hit production environments"
+        ],
+        "location": "Remote",
+        "from": {
+            "month": "June",
+            "year": 2022
+        },
+        "to": {
+            "month": "April",
+            "year": 2023
+        }
+    },
+    {
+        "id": "madblock",
+        "company": "MadBlock Games",
+        "title": "Java Software Developer",
+        "responsibilities": [
+            "Partnered with an official Microsoft Minecraft Marketplace Partner to develop engaging minigames shown to over 2000 unique players using Java and SQL",
+            "Gained a deep understanding of the Minecraft Bedrock protocol, working heavily with it to keep our server software up to date, having support for the newest features, and maintaining backwards compatibility as needed"
+        ],
+        "location": "Remote",
+        "from": {
+            "month": "June",
+            "year": 2020
+        },
+        "to": {
+            "month": "June",
+            "year": 2022
+        }
+    },
+    {
+        "id": "idream",
+        "company": "iDream Communications Initiative Inc",
+        "title": "Full-stack Software Developer",
+        "responsibilities": [
+            "Led the development of an interactive city roleplay chat-based game application (written in Node.js) used by over 10,000 unique players using the Discord API",
+            "Engineered a notification service in PHP to alert over 20,000 users about promotional company media",
+            "Managed and mentored a team of developers, performing code review and maintaining code standards",
+            "Acted as the bridge between development and upper management globally, being the connection for resolving and communicating any issues between the two teams"
+        ],
+        "location": "Remote",
+        "from": {
+            "month": "January",
+            "year": 2016
+        },
+        "to": {
+            "month": "June",
+            "year": 2022
+        }
+    }
+]

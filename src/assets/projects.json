@@ -1,0 +1,74 @@
+[
+    {
+        "name": "WillQi.dev",
+        "description": "Configured and currently run multiple user-facing and monitoring applications on this domain's server, utilizing IaC, to assist with day-to-day activities and to experiment with new emerging technologies.",
+        "repository": "https://willqi.dev",
+        "skills": ["Terraform", "Ansible", "Kubernetes", "Docker", "Prometheus", "Grafana",  "Linux"]
+    },
+    {
+        "name": "The Deadly Bird",
+        "description": "Managed a team of 6 and built a distributed social media network deployed on Heroku, in addition to integrating Stripe for purchasing premium online services on our site.",
+        "repository": "https://github.com/WillQizza/The-Deadly-Bird",
+        "skills": ["TypeScript", "Python", "React", "Django", "Docker", "Stripe", "Heroku"]
+    },
+    {
+        "name": "RenoWorld",
+        "description": "Developed a MVP for a startup that simplifies the process of connecting homeowners and contractors by providing a one-stop platform for home improvement projects.",
+        "repository": "https://cmput401.ca/projects/14496e2a-c739-45ec-81d1-eb3d47372f5d",
+        "skills": ["TypeScript", "Python", "Next.js", "React", "Django", "Docker"]
+    },
+    {
+        "name": "QRHunter",
+        "description": "An Android app made in collaboration with 5 other members utilizing software development practices to created a gamified QR collecting experience.",
+        "repository": "https://github.com/CMPUT301W23T09/QRHunter",
+        "skills": ["Java", "Android", "Firebase"]
+    },
+    {
+        "name": "PizzaServer",
+        "description": "Leading the development of multi-protocol Minecraft Bedrock Edition server software built using Java.",
+        "repository": "https://github.com/PizzaServer/PizzaServer",
+        "skills": ["Java", "JUnit5", "Protocol Development"]
+    },
+    {
+        "name": "Scrumptiousroll",
+        "description": "Food identifying chrome extension built for HackTheNorth 2021.",
+        "repository": "https://github.com/HannahGuo/Scrumptiousroll",
+        "skills": ["JavaScript"]
+    },
+    {
+        "name": "ChatReport",
+        "description": "Java Minecraft report plugin with an internal moderation website built with Node.js.",
+        "repository": "https://github.com/WillQizza/ChatReportPlugin",
+        "skills": ["Node.js", "HTML/CSS", "Java", "Redis", "SQL", "Express.js"]
+    },
+    {
+        "name": "Christmas Game",
+        "description": "A quick platformer developed over the course of three days using Java, JavaScript, and Melon.js",
+        "repository": "https://github.com/WillQizza/ChristmasGame",
+        "skills": ["HTML/CSS", "Java", "WebSocket", "JavaScript", "Javalin", "Melon.js"]
+    },
+    {
+        "name": "LeaderboardAPI",
+        "description": "Simple API built for easily creating leaderboards with datasources like Redis or SQL.",
+        "repository": "https://github.com/WillQizza/LeaderboardAPI",
+        "skills": ["Java", "SQL", "Redis"]
+    },
+    {
+        "name": "TokyoCatch API/Discord Bot",
+        "description": "TokyoCatch API & Discord chat bot to track and be notified for how many plays occur in various online crane machines.",
+        "repository": "https://github.com/WillQizza/BoinkBlonkCraneBot",
+        "skills": ["Node.js", "SQL", "discord.js"]
+    },
+    {
+        "name": "MMMConnect",
+        "description": "Facebook replica created as my Computing Science 30 final project.",
+        "repository": "https://github.com/WillQizza/MMMConnect",
+        "skills": ["PHP", "HTML/CSS", "JavaScript"]
+    },
+    {
+        "name": "Portfolio Site",
+        "description": "This website was built using React and deployed using Kubernetes and Docker.",
+        "repository": "https://github.com/WillQizza/WillQizza.github.io",
+        "skills": ["Kubernetes", "Docker", "React", "HTML/CSS", "TypeScript"]
+    }
+]
