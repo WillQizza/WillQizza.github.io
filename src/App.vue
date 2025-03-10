@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Contact from './components/Contact.vue';
 import Experience from './components/Experiences.vue';
 import Landing from './components/Landing.vue';
 import NavigationBar from './components/NavigationBar.vue';
@@ -10,6 +11,7 @@ import Projects from './components/Projects.vue';
     <Landing />
     <Projects />
     <Experience />
+    <Contact />
 </template>
 
 <style>
