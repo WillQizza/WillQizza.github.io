@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import Experience from './components/Experiences.vue';
 import Landing from './components/Landing.vue';
 import NavigationBar from './components/NavigationBar.vue';
 import Projects from './components/Projects.vue';
@@ -8,6 +9,7 @@ import Projects from './components/Projects.vue';
     <NavigationBar />
     <Landing />
     <Projects />
+    <Experience />
 </template>
 
 <style>

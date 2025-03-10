@@ -38,6 +38,6 @@
     margin-right: 30px;
     margin-top: 20px;
     margin-bottom: 20px;
-    font-size: 23px;
+    font-size: 20px;
 }
 </style>
