@@ -1,17 +1,21 @@
 <script lang="ts" setup>
-    function toWaypoint(waypoint: string) {
+import { homeRef, projectsRef, experienceRef, contactRef } from '../waypoints';
 
-    }
+function toWaypoint(waypoint: HTMLElement) {
+    waypoint.scrollIntoView({
+        behavior: 'smooth'
+    });
+}
 </script>
 
 <template>
     <div class="nav">
         <ul>
             <li><a href="/resume.pdf" target="_blank">Resume</a></li>
-            <li><a href="#contact" @click=''>Contact</a></li>
-            <li><a href="#experience" @click=''>Experience</a></li>
-            <li><a href="#projects" @click=''>Projects</a></li>
-            <li><a href="#home" @click=''>Home</a></li>
+            <li><a @click='toWaypoint(contactRef!)'>Contact</a></li>
+            <li><a @click='toWaypoint(experienceRef!)'>Experience</a></li>
+            <li><a @click='toWaypoint(projectsRef!)'>Projects</a></li>
+            <li><a @click='toWaypoint(homeRef!)'>Home</a></li>
         </ul>
     </div>
 </template>
@@ -24,6 +28,10 @@
     width: 100%;
     height:var(--nav-height);
     z-index: 100;
+}
+
+.nav a {
+    cursor: pointer;
 }
 
 .nav ul {

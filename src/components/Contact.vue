@@ -1,9 +1,10 @@
 <script lang="ts" setup>
 import photo from '../assets/me.jpg';
+import { contactRef } from '../waypoints';
 </script>
 
 <template>
-    <div class="container">
+    <div class="container" ref="contactRef">
         <h1>Contact</h1>
         <hr />
         <div class="content">

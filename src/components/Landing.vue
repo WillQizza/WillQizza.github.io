@@ -1,9 +1,16 @@
 <script setup lang="ts">
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
+import { homeRef, projectsRef } from '../waypoints';
+
+function toProjects() {
+    projectsRef.value!.scrollIntoView({
+        behavior: 'smooth'
+    });
+}
 </script>
 
 <template>
-    <div class="landing-container">
+    <div class="landing-container" ref="homeRef">
         <div class="landing-info">
             <h1>Hey, I'm William</h1>
             <h2>Software Developer</h2>
@@ -13,7 +20,7 @@ import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
         </div>
 
         <div class="hint-container">
-            <a href="#projects" @click=''>
+            <a href="#projects" @click='toProjects()'>
                 <div>
                     View my Projects
                     <br />
