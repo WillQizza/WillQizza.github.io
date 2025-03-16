@@ -6,6 +6,12 @@
         "skills": ["Terraform", "Ansible", "Kubernetes", "Docker", "Prometheus", "Grafana",  "Linux"]
     },
     {
+        "name": "Wispe",
+        "description": "Work in progress helper dashboard application to help track, manage, and plan out activities, designed to be deployed on a Raspberry PI.",
+        "repository": "https://github.com/WillQizza/Wispe",
+        "skills": ["TypeScript", "Electron", "React", "Node.js", "Jest"]
+    },
+    {
         "name": "The Deadly Bird",
         "description": "Managed a team of 6 and built a distributed social media network deployed on Heroku, in addition to integrating Stripe for purchasing premium online services on our site.",
         "repository": "https://github.com/WillQizza/The-Deadly-Bird",
@@ -67,8 +73,8 @@
     },
     {
         "name": "Portfolio Site",
-        "description": "This website was built using React and deployed using Kubernetes and Docker.",
+        "description": "This website was built using Vue and deployed using Kubernetes and Docker.",
         "repository": "https://github.com/WillQizza/WillQizza.github.io",
-        "skills": ["Kubernetes", "Docker", "React", "HTML/CSS", "TypeScript"]
+        "skills": ["Kubernetes", "Docker", "Vue", "HTML/CSS", "TypeScript"]
     }
 ]
