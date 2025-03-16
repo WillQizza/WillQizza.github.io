@@ -1,61 +1,25 @@
-# .
+# willqizza.github.io | willqi.dev
 
-This template should help get you started developing with Vue 3 in Vite.
+Hi there! My name is William Qi! Welcome to my portfolio repository! The repository is composed of the source code of my personal portfolio site.
 
-## Recommended IDE Setup
+This project was built in my spare time using a mixture of both `TypeScript` and `Vue` and is available over at [willqi.dev](https://willqi.dev) if you'd like to take a look!
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## How To Run (Local)
 
-## Type Support for `.vue` Imports in TS
+- `git clone https://github.com/WillQizza/WillQizza.github.io.git`
+- `cd WillQizza.github.io`
+- `npm install`
+- `npm run-script start`
+- Navigate to `localhost:3000` and feel free to look around!
 
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
+## How To Run (Kubernetes)
 
-## Customize configuration
+- `kubectl apply -f https://raw.githubusercontent.com/WillQizza/WillQizza.github.io/master/kubernetes.yaml`
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+## How To Run (Docker)
 
-## Project Setup
-
-```sh
-pnpm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-pnpm dev
-```
-
-### Type-Check, Compile and Minify for Production
-
-```sh
-pnpm build
-```
-
-### Run Unit Tests with [Vitest](https://vitest.dev/)
-
-```sh
-pnpm test:unit
-```
-
-### Run End-to-End Tests with [Cypress](https://www.cypress.io/)
-
-```sh
-pnpm test:e2e:dev
-```
-
-This runs the end-to-end tests against the Vite development server.
-It is much faster than the production build.
-
-But it's still recommended to test the production build with `test:e2e` before deploying (e.g. in CI environments):
-
-```sh
-pnpm build
-pnpm test:e2e
-```
-
-### Lint with [ESLint](https://eslint.org/)
-
-```sh
-pnpm lint
-```
+- `git clone https://github.com/WillQizza/WillQizza.github.io.git`
+- `cd WillQizza.github.io`
+- `docker build -t portfolio:1 .`
+- `docker run -p 3000:80 --name portfolio --restart always portfolio:1`
+- Navigate to `localhost:3000` and feel free to look around!

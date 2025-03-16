@@ -9,7 +9,7 @@
 </script>
 
 <template>
-    <div class="container" id="projects-section" ref="projectsRef">
+    <div class="container" ref="projectsRef">
         <h1>Projects</h1>
         <hr />
         <div class="projects">
