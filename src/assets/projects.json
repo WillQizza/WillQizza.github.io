@@ -12,6 +12,12 @@
         "skills": ["TypeScript", "Electron", "React", "Node.js", "Jest"]
     },
     {
+        "name": "Gazprea Compiler",
+        "description": "Worked in a team of 4 to develop a compiler for a custom C-like programming language that outputs LLVM IR.",
+        "repository": "https://cmput415.github.io/415-docs/gazprea/",
+        "skills": ["C++", "ANTLR4", "LLVM"]
+    },
+    {
         "name": "The Deadly Bird",
         "description": "Managed a team of 6 and built a distributed social media network deployed on Heroku, in addition to integrating Stripe for purchasing premium online services on our site.",
         "repository": "https://github.com/WillQizza/The-Deadly-Bird",
