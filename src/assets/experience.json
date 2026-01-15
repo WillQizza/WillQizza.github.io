@@ -1,5 +1,20 @@
 [
     {
+        "id": "vanmok-fulltime",
+        "company": "Vanmok Leak Detection Technologies",
+        "title": "Software Developer",
+        "responsibilities": [],
+        "location": "Edmonton, Alberta",
+        "from": {
+            "month": "May",
+            "year": 2025
+        },
+        "to": {
+            "month": null,
+            "year": null
+        }
+    },
+    {
         "id": "uofa",
         "company": "University of Alberta",
         "title": "Undergraduate Teaching Assistant",
