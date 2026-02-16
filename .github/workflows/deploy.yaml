@@ -36,4 +36,4 @@ jobs:
         uses: docker/build-push-action@v5
         with:
           push: true
-          tags: ${{ secrets.AWS_REGISTRY_URL }}:1
+          tags: ${{ secrets.AWS_REGISTRY_URL }}:latest
