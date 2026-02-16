@@ -3,7 +3,9 @@
         "id": "vanmok-fulltime",
         "company": "Vanmok Leak Detection Technologies",
         "title": "Software Developer",
-        "responsibilities": [],
+        "responsibilities": [
+            "Responsible for leak detection development for pipelines located globally"
+        ],
         "location": "Edmonton, Alberta",
         "from": {
             "month": "May",
