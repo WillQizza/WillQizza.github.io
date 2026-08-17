@@ -6,6 +6,12 @@
         "skills": ["Terraform", "Ansible", "Kubernetes", "Docker", "Prometheus", "Grafana",  "Linux"]
     },
     {
+        "name": "PizzaBlog",
+        "description": "Blog software written with Next.js, TypeScript, Prisma & PostgreSQL.",
+        "repository": "https://github.com/WillQizza/PizzaBlog",
+        "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"]
+    },
+    {
         "name": "Wispe",
         "description": "Work in progress helper dashboard application to help track, manage, and plan out activities, designed to be deployed on a Raspberry PI.",
         "repository": "https://github.com/WillQizza/Wispe",
