@@ -1,9 +1,9 @@
 <script setup lang="ts">
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
-import { homeRef, projectsRef } from '../waypoints';
+import { homeRef, experienceRef } from '../waypoints';
 
-function toProjects() {
-    projectsRef.value!.scrollIntoView({
+function toExperiences() {
+    experienceRef.value!.scrollIntoView({
         behavior: 'smooth'
     });
 }
@@ -20,9 +20,9 @@ function toProjects() {
         </div>
 
         <div class="hint-container">
-            <a href="#projects" @click='toProjects()'>
+            <a href="#experience" @click='toExperiences()'>
                 <div>
-                    View my Projects
+                    View my Experience
                     <br />
                     <font-awesome-icon :icon="['fas', 'angle-down']" />
                 </div>

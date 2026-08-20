@@ -16,7 +16,7 @@ import Experience from './Experience.vue';
 
 <style scoped>
 .container {
-    background-color: var(--background-color);
+    background-color: var(--secondary-background-color);
     width: 100%;
     padding-top: var(--nav-height);
     padding-bottom: 40px;

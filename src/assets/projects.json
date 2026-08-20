@@ -12,10 +12,10 @@
         "skills": ["Next.js", "TypeScript", "Prisma", "PostgreSQL"]
     },
     {
-        "name": "Wispe",
-        "description": "Work in progress helper dashboard application to help track, manage, and plan out activities, designed to be deployed on a Raspberry PI.",
-        "repository": "https://github.com/WillQizza/Wispe",
-        "skills": ["TypeScript", "Electron", "React", "Node.js", "Jest"]
+        "name": "LoreRaven",
+        "description": "Developer tool used to implement a RAG pipeline over GitHub Wikis, embedding pages with OpenAI models to serve grounded answers to be deployed as a web application for organization use.",
+        "repository": "https://github.com/WillQizza/LoreRaven",
+        "skills": ["Python", "LangChain", "PostgreSQL", "Angular",  "OpenAI"]
     },
     {
         "name": "Gazprea Compiler",

@@ -9,8 +9,8 @@ import Projects from './components/Projects.vue';
 <template>
     <NavigationBar />
     <Landing />
-    <Projects />
     <Experience />
+    <Projects />
     <Contact />
 </template>
 

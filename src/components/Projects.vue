@@ -23,7 +23,7 @@
 
 <style scoped>
 .container {
-    background-color: var(--secondary-background-color);
+    background-color: var(--background-color);
     width: 100%;
     padding-top: var(--nav-height);
     padding-bottom: 40px;
